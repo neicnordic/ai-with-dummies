@@ -1,5 +1,7 @@
 ## AI with dummies
 
-Wouldn't you love to understand artificial intelligence? Modern artificial intelligence systems are powered by neural networks.
+Wouldn't you love to understand artificial intelligence? Modern artificial intelligence systems are complicated pieces of software engineering, with things called neural networks ticking in their core. Neural networks have almost mythic reputation among some AI enthusiasts and understanding their basic working principle is pretty much required to understand AI.
 
-TBC
+Neural network is one approach for doing so called machine learning. The idea in machine learning is that you don't write the rules of the program by yourself, but instead let the computer (machine) to learn the rules from data. Neural networks are inspired by the biological networks of neurons that you can find in organs like the human brains. These artificial neural networs process data by passing it through artificial neurons that are organised into layers. To learn rules from data, the artificial neural network is trained by letting it process training data and observing the errors it makes. Each error is fed back into the network backwards in a process called backpropagation. So essentially a neural networks works by feeding data through it and learn by feeding errors in the reverse direction, making small corrections to connections between the neurons along the way. These connections have weights and adjusting the weights is how neural networks learn to be smart.
+
+This game is designed to introduce the two major functions of neural networks: processing data (called inference) and adjusting the weights (called training or learning). The lesson to take away is that neural networks are actually quite simple and they posses no mythical powers whatsoever. We sincerely hope that a game of AI With dummies gives you insight into how AI ticks or least functions as a nice exercise during a strenuous seminar day!
