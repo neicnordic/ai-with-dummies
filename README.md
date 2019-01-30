@@ -45,7 +45,7 @@ The first task is to train the network.
  5. The output layer person checks this aganist the expected result.
     - If the network detected it correctly, no further action is taken, and we'll move to the next data point (go to 1).
     - If the network falsly detected that the input represented a "1", even if it was not, a -1 will be sent back to the network.
-    - If the network did not detect that the number represented a "1", even if it did, a 1 will be sent back to the network.
+    - If the network did not detect that the number represented a "1", even if it was, a 1 will be sent back to the network.
  6. Now we'll train the network, and do "back propagation". The output layer person takes the appropriate number (1, or -1), and shows it to the people who most contributed to the error (gave most positive numbers if the input did not represent a 1, or gave the most negative numbers if the input represented a 1)
  7. Each person who got a the signal from the output layer adds or subtracts 1 from each input which has a signal (lightbulb).
  8. To see that the training worked, go to point 3. 
