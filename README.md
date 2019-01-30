@@ -1,3 +1,5 @@
+![logo](logo.png)
+
 # AI With Dummies
 
 ## The Game
