@@ -1,4 +1,4 @@
-![logo](/images/2019/01/logo.png)
+![logo](logo.png)
 
 # AI With Dummies
 
