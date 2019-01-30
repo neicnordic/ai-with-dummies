@@ -14,12 +14,13 @@ The game is expected to take 30-45 minutes with setup time. It's encouraged to r
 
 You will need 5 people for this game, 4 will act as a hidden layer in the network and 1 person acts acts out the ouput layer. The input layer will be automatically handled by the game rules.
 
-Print out the material in the "material" folder. After this you should have:
+Print out the material in the print_out_cards.pdf. After this you should have:
 
 * 3 x 4 stacks of paper in different colors, with "-1", "0", and "1" printed on them, signifying the weights between the input layer and the hidden layer.
 * 4 papers with "1" on them, signifying the weights between the hidden layer and the input layer.
 * 12 lightbulbs signifying the signals to the input layer.
 * 8 double sided papers, with one side green, and the other side red.
+* Two signal cards for the output layer for training.
 * A printout of the training and verification data, if you don't have access to a screen to display this data to the participants.
 
 Place the input layer weight papers, all with the paper with the "0" on top as shown in the picture below. One player will handle each color. Place a lightbulb paper in front of each stack.
@@ -34,7 +35,7 @@ When an image is processed by the neural network, if the result is 2 or more, th
 
 If a bulb is turned face up, it's counted as a 1, and if it's turned face down it's counted as a 0.
 
-## Training
+## Playing the game - Training
 
 The first task is to train the network.
 
