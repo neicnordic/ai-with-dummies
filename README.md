@@ -39,7 +39,7 @@ The first task is to train the network.
  1. Place the next image in front of the participants, or on the screen.
  2. Turn the lightbulb images so that each colored pixel has the lightbulb showing, and the blank pixels have the lightbulb turned face down.
  3. Now, each of the 4 players takes each of their inputs, and multiplies them with the weight. The result is added together and signaled to the next layer by showing the appropriate cards. Green cards for positive numbers, red cards for negative. In the first round, all weights are 0, so all results will be 0.
- 4. The output layer person sums all signals together. If the result is 1 or more, the network has detected this as a 1.
+ 4. The output layer person sums all signals together. If the result is 2 or more, the network has detected this as a 1.
  5. The output layer person checks this aganist the expected result.
     - If the network detected it correctly, no further action is taken, and we'll move to the next data point (go to 1).
     - If the network falsly detected that the input represented a "1", even if it was not, a -1 will be sent back to the network.
