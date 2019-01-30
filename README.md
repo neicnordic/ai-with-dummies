@@ -30,7 +30,7 @@ Get the participants of the game, and place them according to the image. Of the 
 
 ## Basic rules
 
-When an image is processed by the neural network, if the result is 1 or more, the image is assumed to represent the number "1". If it's 0 or under, it's assumed not to represent the number "1". This is called the "Activation function". 
+When an image is processed by the neural network, if the result is 2 or more, the image is assumed to represent the number "1". If it's 1 or under, it's assumed not to represent the number "1". This is called the "Activation function". 
 
 If a bulb is turned face up, it's counted as a 1, and if it's turned face down it's counted as a 0.
 
