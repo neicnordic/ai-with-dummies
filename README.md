@@ -58,6 +58,9 @@ When you are out of training data, you have a trained network. The real value of
 Now you're ready to see how your network does! Take the first piece of verification data, and do the exact same steps of training, except the back propagation. Take an image, and see if yor network think it represent s a "1" or not!
 
 
-## Comptetition mode
+## Competition mode
 
 Take two teams. Choose a number between 0-9. Each team creates 3 pieces of training data and trains a network. Take the data for the corresponding number under the "extra_data" folder, and run it through each network. The team the classifies more samples correctly wins!   
+## Caveat emptor
+
+Obviously, real neural network implementations are more complicated than the simplified model presented in the game. In reality backpropagation is more of a descriptive name for the application of chain rule to the derivative of the loss function. Important concepts to understand are gradient descent, loss function and activation function. To get a deeper understanding of neural networks, a recommended read is this nice and educational article: https://ayearofai.com/rohan-lenny-1-neural-networks-the-backpropagation-algorithm-explained-abf4609d4f9d
