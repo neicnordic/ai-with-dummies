@@ -1,4 +1,4 @@
-<img src="source/logo.png" alt="logo" width="200"/>
+<img src="logo.png" alt="logo" width="200"/>
 
 # The Game
 
